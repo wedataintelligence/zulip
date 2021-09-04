@@ -1374,55 +1374,58 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@uppy/companion-client@^1.4.5":
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/@uppy/companion-client/-/companion-client-1.4.5.tgz#8119c80fc8f27b40bd66a95ddb7a8e2d2e67d9fc"
-  integrity sha512-lHmw48rWpipLKBDoDVuMPkSWZPIPoQr9aaV3VSAsVIUg65IhYyJ0FFBEXCh8jtNZsQbkHuXE+xM0niD0kDH/5w==
+"@uppy/companion-client@^1.10.2":
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/@uppy/companion-client/-/companion-client-1.10.2.tgz#a640b3ef90b91751c49bf4b6a7a63c2ebac294f6"
+  integrity sha512-5RmsNF9UBvUqmqQz48SoiLvkpGmvQTgwNM4bJX8xwVozv/6goRpFrsMJGLwqFcHS/9xj6STKOqrM582g8exVwQ==
   dependencies:
-    "@uppy/utils" "^3.0.0"
+    "@uppy/utils" "^3.6.2"
     namespace-emitter "^2.0.1"
+    qs-stringify "^1.1.0"
+    url-parse "^1.4.7"
 
-"@uppy/core@^1.7.1":
-  version "1.10.5"
-  resolved "https://registry.yarnpkg.com/@uppy/core/-/core-1.10.5.tgz#64375a1b46cbe11498b66d34aadf030b18abd213"
-  integrity sha512-RweK/RSJAf5iEjBPt+Vxspnnavkvq2yI2OuAm9Sfz+035k+IPi8G59z0RcBVpWxYZrPkd1lxbd+9Bwql4P8JLw==
+"@uppy/core@^1.20.0":
+  version "1.20.1"
+  resolved "https://registry.yarnpkg.com/@uppy/core/-/core-1.20.1.tgz#23ca28d4388c29987fdc4e65a968474dcdc303c6"
+  integrity sha512-Z0yGixSNOSMgT/2aLylXQaEBB6X32RqGLQUgDJDK08jI0ZcMha5glNhD2RU1Gs9noQOAR/f7QwBssSnYJUNRfg==
   dependencies:
     "@transloadit/prettier-bytes" "0.0.7"
-    "@uppy/store-default" "^1.2.1"
-    "@uppy/utils" "^3.0.0"
+    "@uppy/store-default" "^1.2.7"
+    "@uppy/utils" "^3.6.2"
     cuid "^2.1.1"
     lodash.throttle "^4.1.1"
     mime-match "^1.0.2"
     namespace-emitter "^2.0.1"
     preact "8.2.9"
 
-"@uppy/progress-bar@^1.3.4":
-  version "1.3.14"
-  resolved "https://registry.yarnpkg.com/@uppy/progress-bar/-/progress-bar-1.3.14.tgz#bcb4b6835feef6843dc250136bfeb1e623096937"
-  integrity sha512-4n96o3wV5M6AoLXs1EI275K7RkOcU0YP9BR4ZqWRuciAgyIdChhSvbhHb4HAmaDxIDx2GVlr55lqoz25Ra/wBw==
+"@uppy/progress-bar@^1.3.30":
+  version "1.3.30"
+  resolved "https://registry.yarnpkg.com/@uppy/progress-bar/-/progress-bar-1.3.30.tgz#5bdbc8aab782df15def535c6be47d45ca07964da"
+  integrity sha512-MAn20wBMzKc1p9M/Mot4+bV/707EO/DVgoFcvoP8rmA5oZOGMINpvFGR+rUtWQoBFMvKtvs/Wkp8mcR22rCMrw==
   dependencies:
-    "@uppy/utils" "^3.0.0"
+    "@uppy/utils" "^3.6.2"
     preact "8.2.9"
 
-"@uppy/store-default@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@uppy/store-default/-/store-default-1.2.1.tgz#4f6f1815292388bc2fd6da2655a3ae1133598d5c"
-  integrity sha512-B7iKa9CMLTPgSu1lHQX+Z82NgxoBrzWfZg9WbZnvoJRHnoiwu8A3EFXPLq0OEslvJndBD4xPgUms0BPt4WbnWw==
+"@uppy/store-default@^1.2.7":
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/@uppy/store-default/-/store-default-1.2.7.tgz#41a0b1579f4d5b86c236e7f5e52fdc01960bb011"
+  integrity sha512-58IG9yk/i/kYQ9uEwAwMFl1H2V3syOoODrYoFfVHlxaqv+9MkXBg2tHE2gk40iaAIxcCErcPxZkBOvkqzO1SQA==
 
-"@uppy/utils@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@uppy/utils/-/utils-3.0.0.tgz#144c2fee24c48126202da1f2b80563e794e0fbe8"
-  integrity sha512-QOXy2TrObmFBVOBFekQ3zgr7cKp6v5jUUSPBxN5GzxE9I8FDH6tOtDU4FwzatsC5g430e68DHEyiM1IgA1tTvA==
+"@uppy/utils@^3.6.2":
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/@uppy/utils/-/utils-3.6.2.tgz#78b02455b9c469d927d22736be5b68cda2600826"
+  integrity sha512-wGTZma7eywIojfuE1vXlT0fxPSpmCRMkfgFWYc+6TL2FfGqWInmePoB+yal6/M2AnjeKHz6XYMhIpZkjOxFvcw==
   dependencies:
+    abortcontroller-polyfill "^1.4.0"
     lodash.throttle "^4.1.1"
 
-"@uppy/xhr-upload@^1.4.2":
-  version "1.5.11"
-  resolved "https://registry.yarnpkg.com/@uppy/xhr-upload/-/xhr-upload-1.5.11.tgz#3cd32ea7f7d53326234eb464a3ffb48147c69129"
-  integrity sha512-ToTF9IbtgS1GzloqDXffQTIgpa8nKapTzBlp0EMv/yyTkXQYVW6Mu0uE2hr/mrm0PtrmYyhSbEAuKaX+SC3Ctw==
+"@uppy/xhr-upload@^1.7.5":
+  version "1.7.5"
+  resolved "https://registry.yarnpkg.com/@uppy/xhr-upload/-/xhr-upload-1.7.5.tgz#990ba3e698503bd51534a59fd426096e37ef942b"
+  integrity sha512-Itnc9j9k/PemcmT5KrZ1BEw3pTc6WJg0yyyOcE+hLO8Hjv60Fm7c/I2ZknarOroIjT1WiTSyuxTBPp+9UGkxNA==
   dependencies:
-    "@uppy/companion-client" "^1.4.5"
-    "@uppy/utils" "^3.0.0"
+    "@uppy/companion-client" "^1.10.2"
+    "@uppy/utils" "^3.6.2"
     cuid "^2.1.1"
 
 "@vusion/webfonts-generator@^0.6.0":
@@ -1619,6 +1622,11 @@ abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
+
+abortcontroller-polyfill@^1.4.0:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/abortcontroller-polyfill/-/abortcontroller-polyfill-1.7.3.tgz#1b5b487bd6436b5b764fd52a612509702c3144b5"
+  integrity sha512-zetDJxd89y3X99Kvo4qFx8GKlt6GsvN3UcRZHwU6iFA/0KiOmhkTVhe8oRoTBiTVPZu09x3vCra47+w8Yz1+2Q==
 
 abs-svg-path@^0.1.1, abs-svg-path@~0.1.1:
   version "0.1.1"
@@ -9827,6 +9835,11 @@ q@^1.1.2:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
+qs-stringify@^1.1.0:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/qs-stringify/-/qs-stringify-1.2.1.tgz#9b39ef6b816bd83309628fc9dad435fc0eccc28b"
+  integrity sha512-2N5xGLGZUxpgAYq1fD1LmBSCbxQVsXYt5JU0nU3FuPWO8PlCnKNFQwXkZgyB6mrTdg7IbexX4wxIR403dJw9pw==
+
 qs@6.7.0:
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
@@ -12504,6 +12517,14 @@ url-parse@^1.4.3:
   version "1.4.7"
   resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
   integrity sha512-d3uaVyzDB9tQoSXFvuSUNFibTd9zxd2bkVrDRvF5TmvWWQwqE4lgYJ5m+x1DbecWkw+LK4RNl2CU1hHuOKPVlg==
+  dependencies:
+    querystringify "^2.1.1"
+    requires-port "^1.0.0"
+
+url-parse@^1.4.7:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.3.tgz#71c1303d38fb6639ade183c2992c8cc0686df862"
+  integrity sha512-IIORyIQD9rvj0A4CLWsHkBBJuNqWpFQe224b6j9t/ABmquIS0qDU2pY6kl6AuOrL5OkCXHMCFNe1jBcuAggjvQ==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
