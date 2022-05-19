@@ -33,7 +33,7 @@
     "font-awesome": "^4.7.0",
     "ga-gtag": "^1.0.1",
     "handlebars": "^4.7.2",
-    "handlebars-loader": "^1.7.1",
+    "handlebars-loader": "^1.7.2",
     "html-webpack-plugin": "^4.0.0-beta.8",
     "i18next": "^19.0.0",
     "jquery": "^3.4.1",
