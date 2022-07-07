@@ -42,7 +42,7 @@
     "js-yaml": "^3.13.1",
     "katex": "^0.11.1",
     "mini-css-extract-plugin": "^0.9.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "moment-timezone": "^0.5.25",
     "openapi-examples-validator": "^3.0.2",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
