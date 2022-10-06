@@ -32,20 +32,20 @@
     "flatpickr": "^4.5.7",
     "font-awesome": "^4.7.0",
     "ga-gtag": "^1.0.1",
-    "handlebars": "^4.7.2",
+    "handlebars": "^4.7.7",
     "handlebars-loader": "^1.7.1",
     "html-webpack-plugin": "^4.0.0-beta.8",
-    "i18next": "^19.0.0",
+    "i18next": "^19.8.5",
     "jquery": "^3.4.1",
     "jquery-caret-plugin": "^1.5.2",
-    "jquery-validation": "^1.19.0",
+    "jquery-validation": "^1.19.5",
     "js-yaml": "^3.13.1",
     "katex": "^0.11.1",
     "mini-css-extract-plugin": "^0.9.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "moment-timezone": "^0.5.25",
-    "openapi-examples-validator": "^3.0.2",
-    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "openapi-examples-validator": "^4.7.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.5",
     "plotly.js": "^1.48.1",
     "postcss-calc": "^7.0.1",
     "postcss-extend-rule": "^3.0.0",
@@ -66,15 +66,16 @@
     "style-loader": "^1.0.0",
     "terser-webpack-plugin": "^3.0.3",
     "turndown": "^6.0.0",
-    "underscore": "^1.9.1",
+    "underscore": "^1.12.1",
     "unorm": "^1.6.0",
-    "webfonts-loader": "^5.0.0",
+    "webfonts-loader": "^7.2.0",
     "webpack": "^4.33.0",
     "webpack-cli": "^3.3.2",
     "webpack4-bundle-tracker": "^0.0.1-beta",
     "winchan": "^0.2.1",
     "xdate": "^0.8.2",
-    "zxcvbn": "^4.4.2"
+    "zxcvbn": "^4.4.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/html-minifier": "^3.5.3",
@@ -111,10 +112,13 @@
     "postinstall": "rm -rf ./var/webpack-cache",
     "lint": "eslint --quiet --cache",
     "lint-fix": "eslint --quiet --fix",
-    "lint-loud": "eslint static/js frontend_tests --cache"
+    "lint-loud": "eslint static/js frontend_tests --cache",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/zulip/zulip.git"
-  }
+  },
+  "snyk": true
 }
