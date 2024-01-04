@@ -46,7 +46,7 @@
     "moment-timezone": "^0.5.25",
     "openapi-examples-validator": "^3.0.2",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
-    "plotly.js": "^1.48.1",
+    "plotly.js": "^2.25.2",
     "postcss-calc": "^7.0.1",
     "postcss-extend-rule": "^3.0.0",
     "postcss-loader": "^3.0.0",
