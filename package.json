@@ -40,7 +40,7 @@
     "jquery-caret-plugin": "^1.5.2",
     "jquery-validation": "^1.19.0",
     "js-yaml": "^3.13.1",
-    "katex": "^0.11.1",
+    "katex": "^0.16.10",
     "mini-css-extract-plugin": "^0.9.0",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.25",
